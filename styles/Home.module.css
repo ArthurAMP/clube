@@ -1,9 +1,28 @@
+
 .container {
-  min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+}
+.navbar{
+  position: fixed;
+  top: 0;
+  background-color: #60b2e5;
+  width: 100%;
+  padding: 0.4rem 0;
+  color: white;
+  letter-spacing: 0.08rem;
+  font-size: 1.4em;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+.navitems{
+  padding: 0 0.8rem;
+}
+.navitems:hover{
+  color: lightgray;
+  transition: color 0.2s;
 }
