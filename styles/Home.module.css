@@ -7,9 +7,8 @@
   align-items: center;
 }
 .navbar{
-  position: fixed;
+  position: sticky;
   top: 0;
-  background-color: #60b2e5;
   width: 100%;
   padding: 0.4rem 0;
   color: white;
@@ -21,6 +20,9 @@
 }
 .navitems{
   padding: 0 0.8rem;
+}
+.navbar + .navitems{
+  background-color: #60b2e5;
 }
 .navitems:hover{
   color: lightgray;
