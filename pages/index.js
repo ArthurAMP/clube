@@ -7,6 +7,7 @@ import heroBg from '../public/bruh2.jpg'
 
 export default function Home() {
   return (
+
     <div className={styles.container}>
 
       <Head>
