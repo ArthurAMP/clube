@@ -6,7 +6,7 @@ import backgroundImage from '../../public/bruh2.jpg'
 
 export default function Landing() {
   return (
-    <div>
+    <div className={styles.landing}>
 
 
       <Image

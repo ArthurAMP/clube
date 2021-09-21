@@ -1,0 +1,25 @@
+.navbar{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    flex: 1 0 100%;
+    width:100%;
+    padding: 0.4rem 40rem;
+    color: white;
+    letter-spacing: 0.08rem;
+    font-size: 1.6em;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: +1;
+}
+.navitems{
+    padding: 0 0.8rem;
+}
+.navbar, .navitems{
+    background-color: #3228A1;
+}
+.navitems:hover{
+    color: lightgray;
+    transition: color 0.2s;
+}
