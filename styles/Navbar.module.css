@@ -2,19 +2,34 @@
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    flex: 1 0 100%;
     width:100%;
-    padding: 0.4rem 35rem;
+    padding: 0.6rem 0rem;
     color: white;
     letter-spacing: 0.08rem;
     font-size: 1.5rem;
     font-weight: 500;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     z-index: +1;
 }
+@media screen and (max-width: 900px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar .icon {
+      float: right;
+      display: block;
+      margin: 0px 1.7rem;
+    }
+    .navitems{
+        margin: 0px 0.5rem;
+    }
+    .navbar{
+        padding: 1rem 0rem;
+        justify-content: space-between;
+    }
+}
+.navbar .icon{display:none;}
 .navitems{
-    padding: 0 0.8rem;
+    padding: 0 1.4rem;
 }
 .navbar, .navitems{
     background-color: #3228A1;
@@ -22,4 +37,7 @@
 .navitems:hover{
     color: lightgray;
     transition: color 0.2s;
+}
+.responsive{
+    padding:1000px;
 }
