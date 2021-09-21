@@ -1,48 +1,7 @@
-
 .container {
   padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.btn {
-  background-color: #3228A1;
-  color: #EFEFEF;
-  font-family: Roboto;
-  font-size: 1.6rem;
-  width: 100%;
-  font-weight: 900;
-  margin-top: 0.5rem;
-  letter-spacing: 0.1rem;
-  padding: 0.8rem 0.6rem;
-  border: none;
-  cursor: pointer;
-  border-radius: 45px;
-  text-align: center;
-}
-
-.textArea {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  top: 50%;
-  left: 80%;
-  width: 25rem;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: white;
-  color: #3228A1;
-  padding: 1.5rem 2.9rem;
-  border-radius: 20px;
-  font-size: 2rem;
-
-}
-
-.background {
-  width: 100%;
-  filter: blur(2px);
 }
